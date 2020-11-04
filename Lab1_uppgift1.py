@@ -2,7 +2,7 @@ answer = ""
 
 while True:
     answer = input("Gillar du Python?\nSvar: ")
-    if answer != "ja":
+    if answer.upper() != "JA":
         print("FEL SVAR! FÖRSÖK IGEN!")
     else:
         break
